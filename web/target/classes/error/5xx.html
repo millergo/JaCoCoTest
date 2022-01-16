@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>
+    当模板引擎下有error/4xx.html的时候发生4xx错误就会自动来到这个页面。
+    如果有提供了具体错误页面则会自动到具体的错误页面，比如404.html,那么发生404错误的时候就会去404.html页面</h3>
+<h3>取出全局变量值</h3>
+<h2 style="color: red">status:[[${status}]]</h2>
+<h2 style="color: blue">timestamp:[[${timestamp}]]</h2>
+<h2>exception:[[${exception}]]</h2>
+<h2>message:[[${message}]]</h2>
+</body>
+</html>

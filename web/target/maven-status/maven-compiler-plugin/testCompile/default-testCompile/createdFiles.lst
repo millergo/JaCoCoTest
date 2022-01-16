@@ -1,0 +1,5 @@
+com/github/miller/shan/cucumber/CucumberStepDefsTest.class
+com/github/miller/shan/service/CalculatorServiceTest.class
+com/github/miller/shan/cucumber/CucumberStepCalculatorTest.class
+com/github/miller/shan/cucumber/CucumberTest.class
+com/github/miller/shan/WebApplicationTest.class
